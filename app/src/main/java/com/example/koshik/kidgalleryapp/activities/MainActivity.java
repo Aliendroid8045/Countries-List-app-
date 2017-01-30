@@ -135,6 +135,7 @@ public class MainActivity extends AppCompatActivity {
         EventBus.getInstance().unregister(this);
     }
 
+
     @Subscribe
     public void onDrawerSectionItemClickEvent(DrawerSectionItemClickedEvent event) {
         myDrawerLayout.closeDrawers();

@@ -40,6 +40,7 @@ public class CountryFlagFragment extends ListFragment {
         CountryFlagApiInterface flagApiInterface = restAdapter.create(CountryFlagApiInterface.class);
         flagApiInterface.getStreams(new Callback<List<CountryIModelPojo>>() {
             @Override
+
             public void success(List<CountryIModelPojo> countryIModelPojos, Response response) {
                 if (countryIModelPojos == null || countryIModelPojos.isEmpty())
                     return;

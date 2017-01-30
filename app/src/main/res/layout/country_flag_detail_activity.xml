@@ -4,8 +4,8 @@
     android:id="@+id/activity_detail"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@color/font_front"
+    android:orientation="vertical"
     tools:context="com.example.koshik.kidgalleryapp.activities.AnimalDetailActivity">
 
     <android.support.v7.widget.Toolbar
@@ -36,11 +36,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
-                android:textStyle="bold"
                 android:layout_marginLeft="20dp"
                 android:text="Country:"
                 android:textColor="@color/colorPrimary"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tvCountryName"
@@ -54,18 +54,18 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="2dp"
+                android:layout_height="15dp"
                 android:background="@android:color/white" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
-                android:textStyle="bold"
                 android:layout_marginLeft="20dp"
                 android:text="Country Full Name:"
                 android:textColor="@color/colorPrimary"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tvCountryFullName"
@@ -79,18 +79,18 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="2dp"
+                android:layout_height="15dp"
                 android:background="@android:color/white" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
-                android:textStyle="bold"
                 android:layout_marginLeft="20dp"
                 android:text="Capital:"
                 android:textColor="@color/colorPrimary"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tvCountryCapitalName"
@@ -104,7 +104,7 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="2dp"
+                android:layout_height="15dp"
                 android:background="@android:color/white" />
 
             <TextView
@@ -112,10 +112,10 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:layout_marginLeft="20dp"
-                android:textStyle="bold"
                 android:text="PhoneCode:"
                 android:textColor="@color/colorPrimary"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tvCountryPhoneCode"
@@ -129,7 +129,7 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="2dp"
+                android:layout_height="15dp"
                 android:background="@android:color/white" />
 
             <TextView
@@ -138,9 +138,9 @@
                 android:layout_gravity="left"
                 android:layout_marginLeft="20dp"
                 android:text="Languages:"
-                android:textStyle="bold"
                 android:textColor="@color/colorPrimary"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tvCountryLanguage"
@@ -154,7 +154,7 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="2dp"
+                android:layout_height="15dp"
                 android:background="@android:color/white" />
 
             <TextView
@@ -163,9 +163,9 @@
                 android:layout_gravity="left"
                 android:layout_marginLeft="20dp"
                 android:text="Currency:"
-                android:textStyle="bold"
                 android:textColor="@color/colorPrimary"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tvCountryCurrency"
@@ -179,7 +179,7 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="2dp"
+                android:layout_height="15dp"
                 android:background="@android:color/white" />
 
             <TextView
@@ -188,9 +188,9 @@
                 android:layout_gravity="left"
                 android:layout_marginLeft="20dp"
                 android:text="Region:"
-                android:textStyle="bold"
                 android:textColor="@color/colorPrimary"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tvCountryRegionCode"
@@ -204,7 +204,7 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="2dp"
+                android:layout_height="15dp"
                 android:background="@android:color/white" />
 
 
