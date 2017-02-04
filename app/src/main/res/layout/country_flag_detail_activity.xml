@@ -54,8 +54,9 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="15dp"
-                android:background="@android:color/white" />
+                android:layout_height="6dp"
+                android:background="@color/greyone" />
+
 
             <TextView
                 android:layout_width="wrap_content"
@@ -79,8 +80,9 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="15dp"
-                android:background="@android:color/white" />
+                android:layout_height="6dp"
+                android:background="@color/greyone" />
+
 
             <TextView
                 android:layout_width="wrap_content"
@@ -104,8 +106,9 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="15dp"
-                android:background="@android:color/white" />
+                android:layout_height="6dp"
+                android:background="@color/greyone" />
+
 
             <TextView
                 android:layout_width="wrap_content"
@@ -129,8 +132,9 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="15dp"
-                android:background="@android:color/white" />
+                android:layout_height="6dp"
+                android:background="@color/greyone" />
+
 
             <TextView
                 android:layout_width="wrap_content"
@@ -154,8 +158,9 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="15dp"
-                android:background="@android:color/white" />
+                android:layout_height="6dp"
+                android:background="@color/greyone" />
+
 
             <TextView
                 android:layout_width="wrap_content"
@@ -179,8 +184,8 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="15dp"
-                android:background="@android:color/white" />
+                android:layout_height="6dp"
+                android:background="@color/greyone" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -204,8 +209,8 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="15dp"
-                android:background="@android:color/white" />
+                android:layout_height="6dp"
+                android:background="@color/greyone" />
 
 
             <TextView

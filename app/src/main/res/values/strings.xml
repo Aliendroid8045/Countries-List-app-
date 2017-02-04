@@ -8,11 +8,20 @@
     <string name="section_vegetables">Vegetables</string>
     <string name="section_about_us">About Us</string>
     <string name="logo_aboutus">About Us</string>
-    <string name="about_us_detail">Content of this
-        application are free service. This application may does not have perfect accuracy of data.
-        There mightbe some of data false report of data as all of content in this application are taken from Internet.
-        This application is project base.Please report any query and question to the below email address.Thanks</string>
-    <string name="e_mail">kaushikpanchal8045@gmail.com</string>
+    <string name="email">kaushik.rpk@gmail.com</string>
+    <string name="Privacy_policy">Privacy policy</string>
+    <string name="about_us_detail">KidsBook is application which help a kids to
+        learn about different countries across the world, apart from it different
+        zoo animal as well as alphabet too.If you have any query or question regarding
+        information in application please mail us on below email address. </string>
+    <string name="privacy_text">Your privacy always important to us.\n
+        This privacy policy statement describes
+        the information practices of KidsBooks and its affiliates.We are not
+        sharing any data to any organization. All of data within application
+        are collected from internet and different organization which may have false information.
+        In such a case you can mail us so we can correct out collected information.
+        All of the content we used within application are collected from below organization.
+        We really thanks to such great organizations.  </string>
     <string name="link_alphabet">
         http://www.kids-pages.com\n
         http://www.kids-pages.com\n

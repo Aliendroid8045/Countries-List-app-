@@ -26,9 +26,7 @@ public class Aboutus extends Fragment {
 
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.about_us_fragmnet, container, false);
-        TextView linkAboutusAlphabet = (TextView) view.findViewById(R.id.tvLinkAlphabet);
         TextView emailLink = (TextView) view.findViewById(R.id.myEmail);
-        linkAboutusAlphabet.setMovementMethod(LinkMovementMethod.getInstance());
         return view;
     }
 

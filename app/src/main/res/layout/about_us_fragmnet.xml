@@ -14,12 +14,12 @@
         android:textSize="30sp"
         android:textStyle="bold" />
 
-    <TextView
+   <TextView
         android:id="@+id/tvAboutUs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:padding="15dp"
+        android:padding="50dp"
         android:text="@string/about_us_detail"
         android:textStyle="bold" />
 
@@ -28,18 +28,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:text="@string/e_mail" />
-
-    <TextView
-        android:id="@+id/tvLinkAlphabet"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:autoLink="web"
-        android:lines="4"
-        android:text="@string/link_alphabet"
-        android:textSize="15sp" />
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/dark_theme"
+        android:text="@string/email" />
 
 </LinearLayout>

@@ -1,14 +1,40 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.koshik.kidgalleryapp.fragments.PrivacyFragment">
 
     <TextView
-        android:id="@+id/myPrivacyText"
+        android:id="@+id/tvPrivacy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello How Are you Privacy?"
-        android:textSize="20sp" />
+        android:layout_gravity="center"
+        android:text="@string/Privacy_policy"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
-</FrameLayout>
+    <TextView
+        android:id="@+id/tvPrivacyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="50dp"
+        android:text="@string/privacy_text"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/privacylinks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"
+        android:autoLink="all"
+        android:textStyle="bold"
+        android:textColor="#1a237e"
+        android:text="@string/link_alphabet" />
+
+
+</LinearLayout>
