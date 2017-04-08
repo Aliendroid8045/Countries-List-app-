@@ -34,11 +34,11 @@ public class AnimalListFragment extends ListFragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-       // setListShown(false);
+        // setListShown(false);
         animalAdapter = new AnimalAdapter(getActivity());
         RestAdapter restAdapter = new RestAdapter.Builder()
-                .setEndpoint("https://gist.githubusercontent." +
-                        "com/koshik8045/2ff1e5e81118d0720a988067e9016fa9/" +
+                .setEndpoint("https://gist.githubusercontent.com" +
+                        "/Aliendroid8045/2ff1e5e81118d0720a988067e9016fa9/" +
                         "raw/e295090a82c28f50b5aa1681c13dd268d55b72d7")
                 .build();
         AnimalApiInterface animalApiInterface = restAdapter.create(AnimalApiInterface.class);
@@ -52,7 +52,7 @@ public class AnimalListFragment extends ListFragment {
                 }
                 animalAdapter.notifyDataSetChanged();
                 setListAdapter(animalAdapter);
-               // setListShown(true);
+                // setListShown(true);
             }
 
             @Override

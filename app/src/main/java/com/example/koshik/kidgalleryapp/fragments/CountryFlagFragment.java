@@ -34,9 +34,9 @@ public class CountryFlagFragment extends ListFragment {
         // setListShown(false);
         countryAdapter = new CountryAdapter(getActivity());
         RestAdapter restAdapter = new RestAdapter.Builder()
-                .setEndpoint("https://gist.githubusercontent.com/" +
-                        "koshik8045/9ce01565b3d1ef699ae7716e229e62ba/" +
-                        "raw/4c921777c17599b2ce10c23fc84858f7d65f388d").build();
+                .setEndpoint("https://gist.githubusercontent.com" +
+                        "/Aliendroid8045/9ce01565b3d1ef699ae7716e229e62ba/raw" +
+                        "/4c921777c17599b2ce10c23fc84858f7d65f388d").build();
         CountryFlagApiInterface flagApiInterface = restAdapter.create(CountryFlagApiInterface.class);
         flagApiInterface.getStreams(new Callback<List<CountryIModelPojo>>() {
             @Override
