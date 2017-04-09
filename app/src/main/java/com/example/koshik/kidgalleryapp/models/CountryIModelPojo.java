@@ -20,26 +20,28 @@ public class CountryIModelPojo implements Parcelable {
             return new CountryIModelPojo[size];
         }
     };
-    private String countryname;
-    private String fullname;
-    private String capitalname;
-    private String phonecode;
-    private String language;
-    private String currency;
-    private String region;
-    private String description;
-    private String thumbnail;
-    private String image;
+    public String countryname;
+    public String fullname;
+    public String capitalname;
+    public String phonecode;
+    public String language;
+    public String currency;
+    public String region;
+    public String description;
+    public String thumbnail;
+    public String image;
 
     public CountryIModelPojo() {
 
     }
 
-    public CountryIModelPojo(String countryName, String fullName, String capitalname, String phoneCode, String language, String currency, String region, String description, String thumbnail, String image) {
+    public CountryIModelPojo(String countryName, String fullName, String capitalName,
+                             String phoneCode, String language, String currency, String region,
+                             String description, String thumbnail, String image) {
 
         this.countryname = countryName;
         this.fullname = fullName;
-        this.capitalname = capitalname;
+        this.capitalname = capitalName;
         this.phonecode = phoneCode;
         this.language = language;
         this.currency = currency;
@@ -78,12 +80,12 @@ public class CountryIModelPojo implements Parcelable {
         this.fullname = fullName;
     }
 
-    public String getcapitalname() {
+    public String getcapitalName() {
         return capitalname;
     }
 
-    public void setcapitalname(String capitalname) {
-        this.capitalname = capitalname;
+    public void setcapitalName(String capitalName) {
+        this.capitalname = capitalName;
     }
 
     public String getPhoneCode() {

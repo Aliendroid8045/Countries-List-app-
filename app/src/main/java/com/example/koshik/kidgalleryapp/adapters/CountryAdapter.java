@@ -41,7 +41,7 @@ public class CountryAdapter extends ArrayAdapter<CountryIModelPojo> implements F
         }
 
         viewHolder.countryName.setText(getItem(position).getCountryName());
-        viewHolder.capitalName.setText(getItem(position).getcapitalname());
+        viewHolder.capitalName.setText(getItem(position).getcapitalName());
         Picasso.with(getContext()).load(getItem(position).getThumbnail()).into(viewHolder.thumbnail);
         return convertView;
     }
